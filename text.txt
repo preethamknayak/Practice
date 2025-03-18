@@ -1,0 +1,46 @@
+ def say_my_name( name ):
+#     print(f'{name}.. Your god damm right..')
+
+# say_my_name( 'talkalot' )
+# types of parametes
+# 1. positional parameter
+# def say_my_name( name, age ):
+#     print(f'{name} : {age}.. Your god damm right..')
+
+# say_my_name( 5 , "talkalot" )
+# 2. keyword arguments/parameters
+# say_my_name( age=5 , name="talkalot" )
+
+# 3 default paramenters
+# def say_my_name( name="talkalot" ):
+#     print(f'{name} .. Your god damm right..')
+
+# say_my_name()
+# say_my_name( "GURU" )
+
+#
+arbitarty arguments -> series/ tuple arguments
+# def sum_numbers(*nums):
+#     print(sum(nums))
+
+# sum_numbers(5,6,678,5,9,5)
+
+# arbitraty key ord arguments -> dictionary
+# def details_of_user(**details):
+#     for key ,value in details.items():
+#         print(f"key : {key}")
+#         print(f'value: {value}')
+#         print('-----------------')
+
+# details_of_user(name="Talkalot", age=9, study="python", section='b')
+
+# return statement
+# def square(num):
+#     # staements
+#     res = num * nu
+um
+#     return res
+
+# sqr = square(2)
+
+# lambda funciton (anonymous function)
